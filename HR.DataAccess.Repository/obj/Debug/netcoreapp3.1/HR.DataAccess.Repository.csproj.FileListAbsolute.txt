@@ -1,0 +1,4 @@
+D:\HRAPI\HR.DataAccess.Repository\obj\Debug\netcoreapp3.1\HR.DataAccess.Repository.csprojAssemblyReference.cache
+D:\HRAPI\HR.DataAccess.Repository\obj\Debug\netcoreapp3.1\HR.DataAccess.Repository.AssemblyInfoInputs.cache
+D:\HRAPI\HR.DataAccess.Repository\obj\Debug\netcoreapp3.1\HR.DataAccess.Repository.AssemblyInfo.cs
+D:\HRAPI\HR.DataAccess.Repository\obj\Debug\netcoreapp3.1\HR.DataAccess.Repository.csproj.CoreCompileInputs.cache
