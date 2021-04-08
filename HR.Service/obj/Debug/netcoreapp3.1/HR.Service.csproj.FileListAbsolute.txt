@@ -1,0 +1,4 @@
+D:\HRAPI\HR.Service\obj\Debug\netcoreapp3.1\HR.Service.csprojAssemblyReference.cache
+D:\HRAPI\HR.Service\obj\Debug\netcoreapp3.1\HR.Service.AssemblyInfoInputs.cache
+D:\HRAPI\HR.Service\obj\Debug\netcoreapp3.1\HR.Service.AssemblyInfo.cs
+D:\HRAPI\HR.Service\obj\Debug\netcoreapp3.1\HR.Service.csproj.CoreCompileInputs.cache
