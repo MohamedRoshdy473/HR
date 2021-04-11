@@ -6043,11 +6043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HR\\HR.Service\\HR.Service.csproj",
+      "projectUniqueName": "D:\\HRWithUintOfWork\\HRWithCleanArchtict\\HR.Service\\HR.Service.csproj",
       "projectName": "HR.Service",
-      "projectPath": "D:\\HR\\HR.Service\\HR.Service.csproj",
+      "projectPath": "D:\\HRWithUintOfWork\\HRWithCleanArchtict\\HR.Service\\HR.Service.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\HR\\HR.Service\\obj\\",
+      "outputPath": "D:\\HRWithUintOfWork\\HRWithCleanArchtict\\HR.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6064,8 +6064,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\HR\\HR.DataAccess.Repository\\HR.DataAccess.Repository.csproj": {
-              "projectPath": "D:\\HR\\HR.DataAccess.Repository\\HR.DataAccess.Repository.csproj"
+            "D:\\HRWithUintOfWork\\HRWithCleanArchtict\\HR.DataAccess.Repository\\HR.DataAccess.Repository.csproj": {
+              "projectPath": "D:\\HRWithUintOfWork\\HRWithCleanArchtict\\HR.DataAccess.Repository\\HR.DataAccess.Repository.csproj"
             }
           }
         }

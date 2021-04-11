@@ -1,0 +1,9 @@
+D:\HRWithUintOfWork\HRWithCleanArchtict\HrAPI\obj\Debug\net5.0\HrAPI.csprojAssemblyReference.cache
+D:\HRWithUintOfWork\HRWithCleanArchtict\HrAPI\obj\Debug\net5.0\HrAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\HRWithUintOfWork\HRWithCleanArchtict\HrAPI\obj\Debug\net5.0\HrAPI.AssemblyInfoInputs.cache
+D:\HRWithUintOfWork\HRWithCleanArchtict\HrAPI\obj\Debug\net5.0\HrAPI.AssemblyInfo.cs
+D:\HRWithUintOfWork\HRWithCleanArchtict\HrAPI\obj\Debug\net5.0\HrAPI.csproj.CoreCompileInputs.cache
+D:\HRWithUintOfWork\HRWithCleanArchtict\HrAPI\obj\Debug\net5.0\HrAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\HRWithUintOfWork\HRWithCleanArchtict\HrAPI\obj\Debug\net5.0\HrAPI.dll
+D:\HRWithUintOfWork\HRWithCleanArchtict\HrAPI\obj\Debug\net5.0\ref\HrAPI.dll
+D:\HRWithUintOfWork\HRWithCleanArchtict\HrAPI\obj\Debug\net5.0\HrAPI.pdb
