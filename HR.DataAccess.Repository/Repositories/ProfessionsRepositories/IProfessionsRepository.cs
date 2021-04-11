@@ -11,7 +11,7 @@ namespace HR.DataAccess.Repository.Repositories.ProfessionsRepositories
     public interface IProfessionsRepository
     {
         Profession Get(int id);
-        IEnumerable<Profession> GetAll();
+        IEnumerable<ProfessionDTO> GetAll();
         void Add(Profession profession);
         void Delete(int ProfessionId);
         void Update(int ProfessionId, Profession profession);

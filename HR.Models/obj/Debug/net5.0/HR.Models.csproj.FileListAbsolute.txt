@@ -22,14 +22,3 @@ D:\HR\HR.Models\obj\Debug\net5.0\HR.Models.csproj.CoreCompileInputs.cache
 D:\HR\HR.Models\obj\Debug\net5.0\HR.Models.dll
 D:\HR\HR.Models\obj\Debug\net5.0\ref\HR.Models.dll
 D:\HR\HR.Models\obj\Debug\net5.0\HR.Models.pdb
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\bin\Debug\net5.0\HR.Models.deps.json
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\bin\Debug\net5.0\HR.Models.dll
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\bin\Debug\net5.0\ref\HR.Models.dll
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\bin\Debug\net5.0\HR.Models.pdb
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\obj\Debug\net5.0\HR.Models.GeneratedMSBuildEditorConfig.editorconfig
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\obj\Debug\net5.0\HR.Models.AssemblyInfoInputs.cache
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\obj\Debug\net5.0\HR.Models.AssemblyInfo.cs
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\obj\Debug\net5.0\HR.Models.csproj.CoreCompileInputs.cache
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\obj\Debug\net5.0\HR.Models.dll
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\obj\Debug\net5.0\ref\HR.Models.dll
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Models\obj\Debug\net5.0\HR.Models.pdb

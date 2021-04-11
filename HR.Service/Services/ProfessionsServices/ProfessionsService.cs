@@ -26,7 +26,7 @@ namespace HR.Service.Services.ProfessionsServices
             _unitOfWork.professions.Delete(professionId);
         }
 
-        public IEnumerable<Profession> GetAllProfessions()
+        public IEnumerable<ProfessionDTO> GetAllProfessions()
         {
            return _unitOfWork.professions.GetAll();
         }

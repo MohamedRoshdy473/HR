@@ -92,9 +92,16 @@ namespace HR.DataAccess.Repository.Repositories.ProfessionsRepositories
             }
         }
 
-        public IEnumerable<Profession> GetAll()
+        public IEnumerable<ProfessionDTO> GetAll()
         {
-          return  _context.Professions.ToList();
+            var profs = _context.Professions.Include(p => p.Manager).Select(prof => new ProfessionDTO
+            {
+                ID = prof.ID,
+                ManagerID = prof.ManagerID!=null? (int)prof.ManagerID:0,
+                ManagerName = prof.Manager.Name,
+                Name = prof.Name
+            }).ToList();
+            return profs;
         }
 
         public IEnumerable<ProfessionDTO> GetProfessionByEmployeeId(int EmployeeId)

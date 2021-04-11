@@ -11,7 +11,7 @@ namespace HR.Service.Services.ProfessionsServices
     public interface IProfessionsService
     {
         Profession Getprofession(int id);
-        IEnumerable<Profession> GetAllProfessions();
+        IEnumerable<ProfessionDTO> GetAllProfessions();
         void Addprofession(Profession profession);
         void Deleteprofession(int professionId);
         void Updateprofession(int professionId, Profession profession);

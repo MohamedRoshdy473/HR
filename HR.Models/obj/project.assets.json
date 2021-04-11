@@ -746,11 +746,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HRWithUintOfWork\\HRWithCleanArchtict\\HR.Models\\HR.Models.csproj",
+      "projectUniqueName": "D:\\HR\\HR.Models\\HR.Models.csproj",
       "projectName": "HR.Models",
-      "projectPath": "D:\\HRWithUintOfWork\\HRWithCleanArchtict\\HR.Models\\HR.Models.csproj",
+      "projectPath": "D:\\HR\\HR.Models\\HR.Models.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\HRWithUintOfWork\\HRWithCleanArchtict\\HR.Models\\obj\\",
+      "outputPath": "D:\\HR\\HR.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

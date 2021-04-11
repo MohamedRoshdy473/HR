@@ -32,8 +32,3 @@ D:\HR\HR.Service\obj\Debug\net5.0\HR.Service.csproj.CopyComplete
 D:\HR\HR.Service\obj\Debug\net5.0\HR.Service.dll
 D:\HR\HR.Service\obj\Debug\net5.0\ref\HR.Service.dll
 D:\HR\HR.Service\obj\Debug\net5.0\HR.Service.pdb
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Service\obj\Debug\net5.0\HR.Service.csprojAssemblyReference.cache
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Service\obj\Debug\net5.0\HR.Service.GeneratedMSBuildEditorConfig.editorconfig
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Service\obj\Debug\net5.0\HR.Service.AssemblyInfoInputs.cache
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Service\obj\Debug\net5.0\HR.Service.AssemblyInfo.cs
-D:\HRWithUintOfWork\HRWithCleanArchtict\HR.Service\obj\Debug\net5.0\HR.Service.csproj.CoreCompileInputs.cache
