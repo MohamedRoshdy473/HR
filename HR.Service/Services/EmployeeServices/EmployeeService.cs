@@ -27,7 +27,7 @@ namespace HR.Services
              _unitOfWork.employee.AddEmployee(employee);
             _unitOfWork.CommitAsync();
         }
-
+        //test project
         public void DeleteEmployee(int EmployeeId)
         {
             _unitOfWork.employee.DeleteEmployee(EmployeeId);

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UcEH4KD4M3EA5LvR/9GpuLPJyp1frjbT9yDOZIVkJMsNrZWKqe6y6jK8Q613OFFXMWQLGXg99Y69se9qRhITBg==",
+  "dgSpecHash": "jYY+NrBMDzNjRkRp4DsZ+8zYc8anwu5hINTB700HEozizGU4lAyoUSSlaQfUacsXZHbgWydguRsRIWj61y39Jw==",
   "success": true,
-  "projectFilePath": "D:\\HR\\HR.DataAccess.Repository\\HR.DataAccess.Repository.csproj",
+  "projectFilePath": "D:\\HRWithCleanArchtict\\HR.DataAccess.Repository\\HR.DataAccess.Repository.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
