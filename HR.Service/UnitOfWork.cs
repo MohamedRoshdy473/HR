@@ -1,4 +1,7 @@
-﻿using HR.Models;
+﻿using HR.DataAccess.Repository.Repositories.PositionLevelsRepositories;
+using HR.DataAccess.Repository.Repositories.PositionsRepositories;
+using HR.DataAccess.Repository.Repositories.ProfessionsRepositories;
+using HR.Models;
 using HR.Repositories;
 using System;
 using System.Collections.Generic;
@@ -12,19 +15,36 @@ namespace HR.Service
     {
         private readonly ApplicationDbContext _context;
         private  IEmployeeRepository _employeeRepository;
+        private IPositionsRepository _positionsRepository;
+        private IPositionLevelsRepository _positionLevelsRepository;
+        private IProfessionsRepository _professionsRepository;
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
         }
 
         public IEmployeeRepository employeeRepository => new EmployeeRepositories(_context);
+        public IPositionsRepository positionsRepository => new PositionsRepository(_context);
+        public IPositionLevelsRepository positionLevelsRepository => new PositionLevelsRepository(_context);
+        public IProfessionsRepository professionsRepository => new ProfessionsRepository(_context);
 
         public int CommitAsync()
         {
             return _context.SaveChanges();
         }
-         public IEmployeeRepository employee => _employeeRepository = _employeeRepository ?? new EmployeeRepositories(_context);
 
+        public void Rollback()
+        {
+            _context.Dispose();
+        }
+
+        public IEmployeeRepository employee => _employeeRepository = _employeeRepository ?? new EmployeeRepositories(_context);
+
+        public IPositionsRepository position => _positionsRepository = _positionsRepository ?? new PositionsRepository(_context);
+
+        public IPositionLevelsRepository positionLevels => _positionLevelsRepository = _positionLevelsRepository ?? new PositionLevelsRepository(_context);
+
+        public IProfessionsRepository professions => _professionsRepository = _professionsRepository ?? new ProfessionsRepository(_context);
     }
 }
 
