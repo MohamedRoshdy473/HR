@@ -746,9 +746,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HR\\HR.Models\\HR.Models.csproj",
-      "projectName": "HR.Models",
-      "projectPath": "D:\\HR\\HR.Models\\HR.Models.csproj",
+      "projectUniqueName": "D:\\HR\\HR.Models\\HR.Data.csproj",
+      "projectName": "HR.Data",
+      "projectPath": "D:\\HR\\HR.Models\\HR.Data.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
       "outputPath": "D:\\HR\\HR.Models\\obj\\",
       "projectStyle": "PackageReference",

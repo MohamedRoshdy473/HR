@@ -19,10 +19,6 @@ D:\HR\HR.Service\bin\Debug\net5.0\HR.Service.deps.json
 D:\HR\HR.Service\bin\Debug\net5.0\HR.Service.dll
 D:\HR\HR.Service\bin\Debug\net5.0\ref\HR.Service.dll
 D:\HR\HR.Service\bin\Debug\net5.0\HR.Service.pdb
-D:\HR\HR.Service\bin\Debug\net5.0\HR.DataAccess.Repository.dll
-D:\HR\HR.Service\bin\Debug\net5.0\HR.Models.dll
-D:\HR\HR.Service\bin\Debug\net5.0\HR.DataAccess.Repository.pdb
-D:\HR\HR.Service\bin\Debug\net5.0\HR.Models.pdb
 D:\HR\HR.Service\obj\Debug\net5.0\HR.Service.csprojAssemblyReference.cache
 D:\HR\HR.Service\obj\Debug\net5.0\HR.Service.GeneratedMSBuildEditorConfig.editorconfig
 D:\HR\HR.Service\obj\Debug\net5.0\HR.Service.AssemblyInfoInputs.cache
@@ -32,3 +28,7 @@ D:\HR\HR.Service\obj\Debug\net5.0\HR.Service.csproj.CopyComplete
 D:\HR\HR.Service\obj\Debug\net5.0\HR.Service.dll
 D:\HR\HR.Service\obj\Debug\net5.0\ref\HR.Service.dll
 D:\HR\HR.Service\obj\Debug\net5.0\HR.Service.pdb
+D:\HR\HR.Service\bin\Debug\net5.0\HR.Core.dll
+D:\HR\HR.Service\bin\Debug\net5.0\HR.Data.dll
+D:\HR\HR.Service\bin\Debug\net5.0\HR.Data.pdb
+D:\HR\HR.Service\bin\Debug\net5.0\HR.Core.pdb

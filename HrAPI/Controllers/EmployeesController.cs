@@ -15,9 +15,9 @@ using Microsoft.AspNetCore.Authorization;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Identity;
 using HR.Models;
-using HR.Repositories;
-using HR.Services;
+
 using HR.DTO;
+using HR.Domain.Services;
 
 namespace HrAPI.Controllers
 {

@@ -1,5 +1,5 @@
 ﻿using HR.Models;
-using HR.Service.Services;
+using HR.Domain.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;

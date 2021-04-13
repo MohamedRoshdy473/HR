@@ -14,15 +14,12 @@ using System.IO;
 using HrAPI.ConfirmationMail;
 using System;
 using HR.Models;
-using HR.Services;
-using HR.Repositories;
-using HR.Service;
-using HR.DataAccess.Repository.Repositories.PositionsRepositories;
-using HR.Service.Services;
-using HR.Service.Services.PositionsLevelServices;
-using HR.DataAccess.Repository.Repositories.PositionLevelsRepositories;
-using HR.DataAccess.Repository.Repositories.ProfessionsRepositories;
-using HR.Service.Services.ProfessionsServices;
+using HR.Domain.Services;
+using HR.Domain.Repositories;
+using HR.Domain;
+using HR.Core.Services;
+using HR.Core.Repositories;
+using HR.Core;
 
 namespace HrAPI
 {

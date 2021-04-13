@@ -16,7 +16,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\HR.DataAccess.Repository\HR.DataAccess.Repository.csproj" />
+    <ProjectReference Include="..\HR.DataAccess.Repository\HR.Core.csproj" />
+    <ProjectReference Include="..\HR.Domain\HR.Domain.csproj" />
+    <ProjectReference Include="..\HR.Models\HR.Data.csproj" />
   </ItemGroup>
 
 </Project>

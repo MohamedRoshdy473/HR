@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v5.0": {
       "HR.Service/1.0.0": {
         "dependencies": {
-          "HR.DataAccess.Repository": "1.0.0",
+          "HR.Core": "1.0.0",
+          "HR.Data": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5",
           "Microsoft.EntityFrameworkCore": "5.0.5"
         },
@@ -1067,22 +1068,22 @@
           "System.Xml.ReaderWriter": "4.3.0"
         }
       },
-      "HR.DataAccess.Repository/1.0.0": {
+      "HR.Core/1.0.0": {
         "dependencies": {
-          "HR.Models": "1.0.0",
+          "HR.Data": "1.0.0",
           "Microsoft.AspNet.WebApi.Core": "5.2.7",
           "Microsoft.EntityFrameworkCore": "5.0.5"
         },
         "runtime": {
-          "HR.DataAccess.Repository.dll": {}
+          "HR.Core.dll": {}
         }
       },
-      "HR.Models/1.0.0": {
+      "HR.Data/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5"
         },
         "runtime": {
-          "HR.Models.dll": {}
+          "HR.Data.dll": {}
         }
       }
     }
@@ -1842,12 +1843,12 @@
       "path": "system.xml.xmldocument/4.3.0",
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
-    "HR.DataAccess.Repository/1.0.0": {
+    "HR.Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "HR.Models/1.0.0": {
+    "HR.Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
