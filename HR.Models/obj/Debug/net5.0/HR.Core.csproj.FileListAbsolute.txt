@@ -1,0 +1,12 @@
+D:\HR\HR.Models\bin\Debug\net5.0\HR.Core.deps.json
+D:\HR\HR.Models\bin\Debug\net5.0\HR.Core.dll
+D:\HR\HR.Models\bin\Debug\net5.0\ref\HR.Core.dll
+D:\HR\HR.Models\bin\Debug\net5.0\HR.Core.pdb
+D:\HR\HR.Models\obj\Debug\net5.0\HR.Core.csprojAssemblyReference.cache
+D:\HR\HR.Models\obj\Debug\net5.0\HR.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\HR\HR.Models\obj\Debug\net5.0\HR.Core.AssemblyInfoInputs.cache
+D:\HR\HR.Models\obj\Debug\net5.0\HR.Core.AssemblyInfo.cs
+D:\HR\HR.Models\obj\Debug\net5.0\HR.Core.csproj.CoreCompileInputs.cache
+D:\HR\HR.Models\obj\Debug\net5.0\HR.Core.dll
+D:\HR\HR.Models\obj\Debug\net5.0\ref\HR.Core.dll
+D:\HR\HR.Models\obj\Debug\net5.0\HR.Core.pdb

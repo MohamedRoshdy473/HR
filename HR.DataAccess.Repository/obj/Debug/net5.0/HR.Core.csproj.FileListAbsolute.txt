@@ -1,0 +1,17 @@
+D:\HR\HR.DataAccess.Repository\bin\Debug\net5.0\HR.Core.deps.json
+D:\HR\HR.DataAccess.Repository\bin\Debug\net5.0\HR.Core.dll
+D:\HR\HR.DataAccess.Repository\bin\Debug\net5.0\ref\HR.Core.dll
+D:\HR\HR.DataAccess.Repository\bin\Debug\net5.0\HR.Core.pdb
+D:\HR\HR.DataAccess.Repository\bin\Debug\net5.0\HR.Data.dll
+D:\HR\HR.DataAccess.Repository\bin\Debug\net5.0\HR.Data.pdb
+D:\HR\HR.DataAccess.Repository\obj\Debug\net5.0\HR.Core.csprojAssemblyReference.cache
+D:\HR\HR.DataAccess.Repository\obj\Debug\net5.0\HR.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\HR\HR.DataAccess.Repository\obj\Debug\net5.0\HR.Core.AssemblyInfoInputs.cache
+D:\HR\HR.DataAccess.Repository\obj\Debug\net5.0\HR.Core.AssemblyInfo.cs
+D:\HR\HR.DataAccess.Repository\obj\Debug\net5.0\HR.Core.csproj.CoreCompileInputs.cache
+D:\HR\HR.DataAccess.Repository\obj\Debug\net5.0\HR.Core.csproj.CopyComplete
+D:\HR\HR.DataAccess.Repository\obj\Debug\net5.0\HR.Core.dll
+D:\HR\HR.DataAccess.Repository\obj\Debug\net5.0\ref\HR.Core.dll
+D:\HR\HR.DataAccess.Repository\obj\Debug\net5.0\HR.Core.pdb
+D:\HR\HR.DataAccess.Repository\bin\Debug\net5.0\HR.Domain.dll
+D:\HR\HR.DataAccess.Repository\bin\Debug\net5.0\HR.Domain.pdb

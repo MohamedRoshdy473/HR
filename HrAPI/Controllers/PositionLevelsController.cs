@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using HR.Models;
-using HR.Service.Services.PositionsLevelServices;
+using HR.Domain.Services;
 
 namespace HrAPI.Controllers
 {

@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using System.Net;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
-using HR.Service.Services.ProfessionsServices;
+using HR.Domain.Services;
 using HR.Models;
 using HR.DTO;
 
