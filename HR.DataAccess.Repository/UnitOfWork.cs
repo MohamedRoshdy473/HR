@@ -17,6 +17,9 @@ namespace HR.Core
         private IPositionsRepository _positionsRepository;
         private IPositionLevelsRepository _positionLevelsRepository;
         private IProfessionsRepository _professionsRepository;
+        private IUniversityRepository _universityRepository;
+        private IFacultyRepository _facultyRepository;
+        private IFacultyDepartmentRepository _facultyDepartmentRepository;
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
@@ -26,6 +29,9 @@ namespace HR.Core
         public IPositionsRepository positionsRepository => new PositionsRepository(_context);
         public IPositionLevelsRepository positionLevelsRepository => new PositionLevelsRepository(_context);
         public IProfessionsRepository professionsRepository => new ProfessionsRepository(_context);
+        public IUniversityRepository universityRepository => new UniversityRepository(_context);
+        public IFacultyRepository facultyRepository => new FacultyRepository(_context);
+        public IFacultyDepartmentRepository facultyDepartmentRepository => new FacultyDepartmentRepository(_context);
 
         public int CommitAsync()
         {
@@ -44,6 +50,12 @@ namespace HR.Core
         public IPositionLevelsRepository positionLevels => _positionLevelsRepository = _positionLevelsRepository ?? new PositionLevelsRepository(_context);
 
         public IProfessionsRepository professions => _professionsRepository = _professionsRepository ?? new ProfessionsRepository(_context);
+
+        public IUniversityRepository university => _universityRepository = _universityRepository ?? new UniversityRepository(_context);
+
+        public IFacultyRepository faculty => _facultyRepository = _facultyRepository ?? new FacultyRepository(_context);
+
+        public IFacultyDepartmentRepository facultyDepartment => _facultyDepartmentRepository = _facultyDepartmentRepository ?? new FacultyDepartmentRepository(_context);
     }
 }
 

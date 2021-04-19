@@ -16,6 +16,9 @@ namespace HR.Domain
         IPositionsRepository position { get; }
         IPositionLevelsRepository positionLevels { get; }
         IProfessionsRepository professions { get; }
+        IUniversityRepository university { get; }
+        IFacultyRepository faculty { get; }
+        IFacultyDepartmentRepository facultyDepartment { get; }
 
     }
 }

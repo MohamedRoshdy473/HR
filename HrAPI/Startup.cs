@@ -64,6 +64,13 @@ namespace HrAPI
             services.AddTransient<IPositionsLevelService, PositionsLevelService>();
             services.AddTransient<IProfessionsRepository, ProfessionsRepository>();
             services.AddTransient<IProfessionsService, ProfessionsService>();
+            services.AddTransient<IUniversityRepository, UniversityRepository>();
+            services.AddTransient<IUniversityService, UniversityService>();
+            services.AddTransient<IFacultyService, FacultyService>();
+            services.AddTransient<IFacultyRepository, FacultyRepository>();
+            services.AddTransient<IFacultyDepartmentService, FacultyDepartmentService>();
+            services.AddTransient<IFacultyDepartmentRepository, FacultyDepartmentRepository>();
+
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             // For Identity  
             services.AddIdentity<ApplicationUser, IdentityRole>()
