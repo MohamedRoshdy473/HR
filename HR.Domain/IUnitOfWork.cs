@@ -19,6 +19,7 @@ namespace HR.Domain
         IUniversityRepository university { get; }
         IFacultyRepository faculty { get; }
         IFacultyDepartmentRepository facultyDepartment { get; }
+        IExcuseRepository excuse { get; }
 
     }
 }

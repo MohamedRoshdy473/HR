@@ -20,6 +20,8 @@ namespace HR.Core
         private IUniversityRepository _universityRepository;
         private IFacultyRepository _facultyRepository;
         private IFacultyDepartmentRepository _facultyDepartmentRepository;
+        private ExcuseRepository _excuseRepository;
+
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
@@ -32,6 +34,8 @@ namespace HR.Core
         public IUniversityRepository universityRepository => new UniversityRepository(_context);
         public IFacultyRepository facultyRepository => new FacultyRepository(_context);
         public IFacultyDepartmentRepository facultyDepartmentRepository => new FacultyDepartmentRepository(_context);
+        public IExcuseRepository excuseRepository => new ExcuseRepository(_context);
+
 
         public int CommitAsync()
         {
@@ -56,6 +60,8 @@ namespace HR.Core
         public IFacultyRepository faculty => _facultyRepository = _facultyRepository ?? new FacultyRepository(_context);
 
         public IFacultyDepartmentRepository facultyDepartment => _facultyDepartmentRepository = _facultyDepartmentRepository ?? new FacultyDepartmentRepository(_context);
+
+        public IExcuseRepository excuse => _excuseRepository = _excuseRepository ?? new ExcuseRepository(_context);
     }
 }
 

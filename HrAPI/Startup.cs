@@ -70,7 +70,8 @@ namespace HrAPI
             services.AddTransient<IFacultyRepository, FacultyRepository>();
             services.AddTransient<IFacultyDepartmentService, FacultyDepartmentService>();
             services.AddTransient<IFacultyDepartmentRepository, FacultyDepartmentRepository>();
-
+            services.AddTransient<IExcuseRepository, ExcuseRepository>();
+            services.AddTransient<IExcuseService, ExcuseService>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
             // For Identity  
             services.AddIdentity<ApplicationUser, IdentityRole>()
