@@ -777,12 +777,12 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/5.0.5": {
+      "Microsoft.EntityFrameworkCore.Design/5.0.4": {
         "type": "package",
         "dependencies": {
           "Humanizer.Core": "2.8.26",
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.5"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.4"
         },
         "compile": {
           "lib/netstandard2.1/_._": {}
@@ -835,11 +835,11 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Sqlite.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/5.0.5": {
+      "Microsoft.EntityFrameworkCore.SqlServer/5.0.4": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "2.0.1",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.5"
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.4"
         },
         "compile": {
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -848,10 +848,10 @@
           "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/5.0.5": {
+      "Microsoft.EntityFrameworkCore.Tools/5.0.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "5.0.5"
+          "Microsoft.EntityFrameworkCore.Design": "5.0.4"
         },
         "compile": {
           "lib/netstandard2.1/_._": {}
@@ -3157,46 +3157,47 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "HR.Core/1.0.0": {
+      "HR.DataAccess.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "HR.Data": "1.0.0",
-          "HR.Domain": "1.0.0",
+          "HR.Models": "1.0.0",
           "Microsoft.AspNet.WebApi.Core": "5.2.7",
           "Microsoft.EntityFrameworkCore": "5.0.5"
         },
         "compile": {
-          "bin/placeholder/HR.Core.dll": {}
+          "bin/placeholder/HR.DataAccess.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/HR.Core.dll": {}
+          "bin/placeholder/HR.DataAccess.Repository.dll": {}
         }
       },
-      "HR.Data/1.0.0": {
+      "HR.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5"
         },
         "compile": {
-          "bin/placeholder/HR.Data.dll": {}
+          "bin/placeholder/HR.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/HR.Data.dll": {}
+          "bin/placeholder/HR.Models.dll": {}
         }
       },
-      "HR.Domain/1.0.0": {
+      "HR.Service/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "HR.Data": "1.0.0"
+          "HR.DataAccess.Repository": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5",
+          "Microsoft.EntityFrameworkCore": "5.0.5"
         },
         "compile": {
-          "bin/placeholder/HR.Domain.dll": {}
+          "bin/placeholder/HR.Service.dll": {}
         },
         "runtime": {
-          "bin/placeholder/HR.Domain.dll": {}
+          "bin/placeholder/HR.Service.dll": {}
         }
       }
     }
@@ -4175,10 +4176,10 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/5.0.5": {
-      "sha512": "bEjgWGrEWtCQl1A3wx1xW+tALhuWHG+0hXFr9G+GrwkVLaZiW0tILqRx1DJ0y4t12dUf8tMsv0LMokKIf8IOFw==",
+    "Microsoft.EntityFrameworkCore.Design/5.0.4": {
+      "sha512": "LqyE5MX0IUFjsXu3tNIMpTtC4poY7XQogpGdATjK949tCKopxyJuzTZtgsgdc20LGFWQM0UwwyyfUNjs5kKvsw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/5.0.5",
+      "path": "microsoft.entityframeworkcore.design/5.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -4186,7 +4187,7 @@
         "build/netcoreapp3.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.5.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.5.0.4.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
@@ -4231,31 +4232,31 @@
         "microsoft.entityframeworkcore.sqlite.core.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/5.0.5": {
-      "sha512": "f5cjySGx1VSRSzKyu/z2qZJzDbVV7L+jcLnb7+ySs3ctyfO3lqul7x9xM+P5326EyFLva8/ILQLv35L9w3EDFA==",
+    "Microsoft.EntityFrameworkCore.SqlServer/5.0.4": {
+      "sha512": "wFn6lYyezhTIWpEB85NYn0TmVs0GiTQBbgKxK4/BmeEXBoLdltOngosey1u9t1+c2xjxuis1V7fP3wcLVSf+jg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/5.0.5",
+      "path": "microsoft.entityframeworkcore.sqlserver/5.0.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.5.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.5.0.4.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/5.0.5": {
-      "sha512": "YfEG6UQumR2+L/c2c/mdwNH9vRA2KscsCgKCI/REh8KZL65dfoRSkTzLknJ1ai+WK/GM8EI1eClfAyZCTIMhOQ==",
+    "Microsoft.EntityFrameworkCore.Tools/5.0.4": {
+      "sha512": "ldiZtmhBXJBvBHLUUglCL2n0RFoaXwR3fnvY0Tn0U70V4gafA2ny7vf1d/Gh4ai9qyj/wVJOj4RN8HAy4wjqTw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/5.0.5",
+      "path": "microsoft.entityframeworkcore.tools/5.0.4",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/_._",
-        "microsoft.entityframeworkcore.tools.5.0.5.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.5.0.4.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -9839,34 +9840,32 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "HR.Core/1.0.0": {
+    "HR.DataAccess.Repository/1.0.0": {
       "type": "project",
-      "path": "../HR.DataAccess.Repository/HR.Core.csproj",
-      "msbuildProject": "../HR.DataAccess.Repository/HR.Core.csproj"
+      "path": "../HR.DataAccess.Repository/HR.DataAccess.Repository.csproj",
+      "msbuildProject": "../HR.DataAccess.Repository/HR.DataAccess.Repository.csproj"
     },
-    "HR.Data/1.0.0": {
+    "HR.Models/1.0.0": {
       "type": "project",
-      "path": "../HR.Models/HR.Data.csproj",
-      "msbuildProject": "../HR.Models/HR.Data.csproj"
+      "path": "../HR.Models/HR.Models.csproj",
+      "msbuildProject": "../HR.Models/HR.Models.csproj"
     },
-    "HR.Domain/1.0.0": {
+    "HR.Service/1.0.0": {
       "type": "project",
-      "path": "../HR.Domain/HR.Domain.csproj",
-      "msbuildProject": "../HR.Domain/HR.Domain.csproj"
+      "path": "../HR.Service/HR.Service.csproj",
+      "msbuildProject": "../HR.Service/HR.Service.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "HR.Core >= 1.0.0",
-      "HR.Data >= 1.0.0",
-      "HR.Domain >= 1.0.0",
+      "HR.Service >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.5",
       "Microsoft.AspNetCore.Cors >= 2.2.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Mvc.NewtonsoftJson >= 5.0.5",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.5",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.5",
-      "Microsoft.EntityFrameworkCore.Tools >= 5.0.5",
+      "Microsoft.EntityFrameworkCore.Tools >= 5.0.4",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 5.0.2",
       "NETCore.MailKit >= 2.0.3"
     ]
@@ -9877,11 +9876,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HR\\HrAPI\\HR.API.csproj",
-      "projectName": "HR.API",
-      "projectPath": "D:\\HR\\HrAPI\\HR.API.csproj",
+      "projectUniqueName": "D:\\HRWithCleanArchtict\\HrAPI\\HrAPI.csproj",
+      "projectName": "HrAPI",
+      "projectPath": "D:\\HRWithCleanArchtict\\HrAPI\\HrAPI.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\HR\\HrAPI\\obj\\",
+      "outputPath": "D:\\HRWithCleanArchtict\\HrAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9898,14 +9897,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\HR\\HR.DataAccess.Repository\\HR.Core.csproj": {
-              "projectPath": "D:\\HR\\HR.DataAccess.Repository\\HR.Core.csproj"
-            },
-            "D:\\HR\\HR.Domain\\HR.Domain.csproj": {
-              "projectPath": "D:\\HR\\HR.Domain\\HR.Domain.csproj"
-            },
-            "D:\\HR\\HR.Models\\HR.Data.csproj": {
-              "projectPath": "D:\\HR\\HR.Models\\HR.Data.csproj"
+            "D:\\HRWithCleanArchtict\\HR.Service\\HR.Service.csproj": {
+              "projectPath": "D:\\HRWithCleanArchtict\\HR.Service\\HR.Service.csproj"
             }
           }
         }
@@ -9938,7 +9931,7 @@
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[5.0.5, )"
+            "version": "[5.0.4, )"
           },
           "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
@@ -9948,7 +9941,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[5.0.5, )"
+            "version": "[5.0.4, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",

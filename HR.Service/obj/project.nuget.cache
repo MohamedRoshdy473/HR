@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wOddV0fcKCPZP2iJdkTSLKhgmKdwJrilmacyOdxVF8/+qMWWpRNUIAHulabUwErzoOjrLcOJMEANlzGI8yCi8w==",
+  "dgSpecHash": "bIuKZxikouyMd9iXqCYh4Sj25Dx92mGfwMT/9JO6EFhFI3eG7tg7wtRPdslTCRNDV4lC4g6xAOfxec17H2d1/g==",
   "success": true,
-  "projectFilePath": "D:\\HR\\HR.Service\\HR.Service.csproj",
+  "projectFilePath": "D:\\HRWithCleanArchtict\\HR.Service\\HR.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.7\\microsoft.aspnet.webapi.client.5.2.7.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnet.webapi.core\\5.2.7\\microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",

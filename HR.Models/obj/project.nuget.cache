@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LkGtLZTKTDxhwo5GYbzD3XxgV0kaF2/ittVkMzUQ2jeMShCEDg2GILatrn5kPT8Q4yiYEDWKeFOVHJLpgO6Pbw==",
+  "dgSpecHash": "gnzh8okqKKMYXlfu/k0YHCR2iFh+JpFkfW6I2EKN8D5rK4Eh9R0XY+kuPS9PNhku3MEUJGtw9iurNdNHruYMsg==",
   "success": true,
-  "projectFilePath": "D:\\HR\\HR.Models\\HR.Data.csproj",
+  "projectFilePath": "D:\\HRWithCleanArchtict\\HR.Models\\HR.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\5.0.5\\microsoft.aspnetcore.cryptography.internal.5.0.5.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\5.0.5\\microsoft.aspnetcore.cryptography.keyderivation.5.0.5.nupkg.sha512",

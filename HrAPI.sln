@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.API", "HrAPI\HR.API.csproj", "{6FD6CBE4-890A-4F8C-BE9E-13D42889A55E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HrAPI", "HrAPI\HrAPI.csproj", "{6FD6CBE4-890A-4F8C-BE9E-13D42889A55E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Core", "HR.DataAccess.Repository\HR.Core.csproj", "{912BD017-102C-47C4-B229-3E69F9AB349A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Service", "HR.Service\HR.Service.csproj", "{6EBC33D2-C645-47EB-8D9F-651512AD857B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.Data", "HR.Models\HR.Data.csproj", "{E9C58E55-44A2-47C1-AB75-816D172FAC1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HR.DataAccess.Repository", "HR.DataAccess.Repository\HR.DataAccess.Repository.csproj", "{912BD017-102C-47C4-B229-3E69F9AB349A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.Domain", "HR.Domain\HR.Domain.csproj", "{B51822E3-309C-4DC2-9F03-EE98200F189B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.Models", "HR.Models\HR.Models.csproj", "{E9C58E55-44A2-47C1-AB75-816D172FAC1E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +21,10 @@ Global
 		{6FD6CBE4-890A-4F8C-BE9E-13D42889A55E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FD6CBE4-890A-4F8C-BE9E-13D42889A55E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FD6CBE4-890A-4F8C-BE9E-13D42889A55E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBC33D2-C645-47EB-8D9F-651512AD857B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBC33D2-C645-47EB-8D9F-651512AD857B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBC33D2-C645-47EB-8D9F-651512AD857B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBC33D2-C645-47EB-8D9F-651512AD857B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{912BD017-102C-47C4-B229-3E69F9AB349A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{912BD017-102C-47C4-B229-3E69F9AB349A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{912BD017-102C-47C4-B229-3E69F9AB349A}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -29,10 +33,6 @@ Global
 		{E9C58E55-44A2-47C1-AB75-816D172FAC1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9C58E55-44A2-47C1-AB75-816D172FAC1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9C58E55-44A2-47C1-AB75-816D172FAC1E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B51822E3-309C-4DC2-9F03-EE98200F189B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B51822E3-309C-4DC2-9F03-EE98200F189B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B51822E3-309C-4DC2-9F03-EE98200F189B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B51822E3-309C-4DC2-9F03-EE98200F189B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

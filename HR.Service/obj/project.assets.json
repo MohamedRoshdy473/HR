@@ -1684,46 +1684,32 @@
           "lib/netstandard1.3/System.Xml.XmlDocument.dll": {}
         }
       },
-      "HR.Core/1.0.0": {
+      "HR.DataAccess.Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "HR.Data": "1.0.0",
-          "HR.Domain": "1.0.0",
+          "HR.Models": "1.0.0",
           "Microsoft.AspNet.WebApi.Core": "5.2.7",
           "Microsoft.EntityFrameworkCore": "5.0.5"
         },
         "compile": {
-          "bin/placeholder/HR.Core.dll": {}
+          "bin/placeholder/HR.DataAccess.Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/HR.Core.dll": {}
+          "bin/placeholder/HR.DataAccess.Repository.dll": {}
         }
       },
-      "HR.Data/1.0.0": {
+      "HR.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.5"
         },
         "compile": {
-          "bin/placeholder/HR.Data.dll": {}
+          "bin/placeholder/HR.Models.dll": {}
         },
         "runtime": {
-          "bin/placeholder/HR.Data.dll": {}
-        }
-      },
-      "HR.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "HR.Data": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/HR.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/HR.Domain.dll": {}
+          "bin/placeholder/HR.Models.dll": {}
         }
       }
     }
@@ -6033,27 +6019,20 @@
         "system.xml.xmldocument.nuspec"
       ]
     },
-    "HR.Core/1.0.0": {
+    "HR.DataAccess.Repository/1.0.0": {
       "type": "project",
-      "path": "../HR.DataAccess.Repository/HR.Core.csproj",
-      "msbuildProject": "../HR.DataAccess.Repository/HR.Core.csproj"
+      "path": "../HR.DataAccess.Repository/HR.DataAccess.Repository.csproj",
+      "msbuildProject": "../HR.DataAccess.Repository/HR.DataAccess.Repository.csproj"
     },
-    "HR.Data/1.0.0": {
+    "HR.Models/1.0.0": {
       "type": "project",
-      "path": "../HR.Models/HR.Data.csproj",
-      "msbuildProject": "../HR.Models/HR.Data.csproj"
-    },
-    "HR.Domain/1.0.0": {
-      "type": "project",
-      "path": "../HR.Domain/HR.Domain.csproj",
-      "msbuildProject": "../HR.Domain/HR.Domain.csproj"
+      "path": "../HR.Models/HR.Models.csproj",
+      "msbuildProject": "../HR.Models/HR.Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "HR.Core >= 1.0.0",
-      "HR.Data >= 1.0.0",
-      "HR.Domain >= 1.0.0",
+      "HR.DataAccess.Repository >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.5",
       "Microsoft.EntityFrameworkCore >= 5.0.5"
     ]
@@ -6064,11 +6043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HR\\HR.Service\\HR.Service.csproj",
+      "projectUniqueName": "D:\\HRWithCleanArchtict\\HR.Service\\HR.Service.csproj",
       "projectName": "HR.Service",
-      "projectPath": "D:\\HR\\HR.Service\\HR.Service.csproj",
+      "projectPath": "D:\\HRWithCleanArchtict\\HR.Service\\HR.Service.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\HR\\HR.Service\\obj\\",
+      "outputPath": "D:\\HRWithCleanArchtict\\HR.Service\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6085,14 +6064,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\HR\\HR.DataAccess.Repository\\HR.Core.csproj": {
-              "projectPath": "D:\\HR\\HR.DataAccess.Repository\\HR.Core.csproj"
-            },
-            "D:\\HR\\HR.Domain\\HR.Domain.csproj": {
-              "projectPath": "D:\\HR\\HR.Domain\\HR.Domain.csproj"
-            },
-            "D:\\HR\\HR.Models\\HR.Data.csproj": {
-              "projectPath": "D:\\HR\\HR.Models\\HR.Data.csproj"
+            "D:\\HRWithCleanArchtict\\HR.DataAccess.Repository\\HR.DataAccess.Repository.csproj": {
+              "projectPath": "D:\\HRWithCleanArchtict\\HR.DataAccess.Repository\\HR.DataAccess.Repository.csproj"
             }
           }
         }
