@@ -749,8 +749,8 @@
     },
     "HR.Data/1.0.0": {
       "type": "project",
-      "path": "../HR.Models/HR.Data.csproj",
-      "msbuildProject": "../HR.Models/HR.Data.csproj"
+      "path": "../HR.Data/HR.Data.csproj",
+      "msbuildProject": "../HR.Data/HR.Data.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -785,6 +785,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "D:\\HR\\HR.Data\\HR.Data.csproj": {
+              "projectPath": "D:\\HR\\HR.Data\\HR.Data.csproj"
+            },
             "D:\\HR\\HR.Models\\HR.Data.csproj": {
               "projectPath": "D:\\HR\\HR.Models\\HR.Data.csproj"
             }

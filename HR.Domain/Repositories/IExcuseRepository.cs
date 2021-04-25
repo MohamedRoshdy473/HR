@@ -1,5 +1,6 @@
-﻿using HR.DTO;
-using HR.Models;
+﻿
+using HR.Data.DTO;
+using HR.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -28,7 +29,6 @@ namespace HR.Domain.Repositories
         IEnumerable<ExcuseDTO> GetPendingExcusesByHR();
         void AcceptExcuse(int Id);
         void RejectExcuse(int Id);
-        IEnumerable<ExcuseDTO> PreviousExcuses();
         Boolean GetExcuseByEmployeeId(int EmployeeId);
         IEnumerable<ExcuseDTO> GetAllExcuseForEmployeeId(int EmployeeId);
     }

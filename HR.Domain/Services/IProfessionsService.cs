@@ -1,5 +1,6 @@
-﻿using HR.DTO;
-using HR.Models;
+﻿
+using HR.Data.DTO;
+using HR.Data.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
