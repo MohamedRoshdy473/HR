@@ -11,7 +11,6 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
-using HrAPI.ConfirmationMail;
 using System;
 using HR.Domain.Services;
 using HR.Domain.Repositories;
@@ -20,6 +19,7 @@ using HR.Data.Models;
 using HR.Core.Services;
 using HR.Core.Repositories;
 using HR.Core;
+using HR.API.ConfirmationMail;
 
 namespace HrAPI
 {

@@ -13,9 +13,9 @@ using System.Text;
 using HrAPI.ViewModels;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Authorization;
-using HrAPI.ConfirmationMail;
 using Microsoft.AspNetCore.WebUtilities;
 using HR.Data.Models;
+using HR.API.ConfirmationMail;
 
 namespace HrAPI.Controllers
 {
